@@ -1,0 +1,56 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1546014681-081e1149ee34?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIyfGlVSXNuVnRqQjBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60);
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+h2, p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
+    font-family: Train One;
+}
+
+p {
+    text-transform: uppercase;
+    line-height: 20px;
+    font-style: italic;
+    font-size: 80%;
+    font-family: 'Roboto';
+    text-align: left;
+}
+
+img {
+    float: right;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.webtext:last-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1:hover {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2:hover {
+    background: rgba(255, 0, 0, 0.2);
+}
